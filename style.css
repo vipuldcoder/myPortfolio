@@ -1,0 +1,93 @@
+.block {
+  background-color: black;
+  opacity: .7;
+  padding: 10px;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 7.5px;
+}
+
+.nav-pills {
+  
+  font-size: 1.7em;
+  background-color: black;
+  margin-bottom: 10%;
+}
+
+body {
+  background-color: #757575;
+  font-family: 'Lato', sans-serif;
+  color : white;
+}
+
+a {
+  color: #e0f2f1;
+}
+
+h1 {
+  padding:0;
+  margin-top:0;
+  font-size: 4.0em;
+  padding-top:0%;
+}
+
+
+
+.btn-default {
+  background-color:  #ff5722;
+  border-color: #ff6f00;
+  color: #e0f2f1;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.7em;
+  margin-top: 1%;
+  margin-right: .5%;
+}
+
+.pageOne {  background:url("https://images.unsplash.com/photo-1472201248592-1241c92256ff?dpr=1&auto=format&fit=crop&w=1199&h=704&q=80&cs=tinysrgb&crop=&bg=");
+  background-size: cover;
+  height: 800px;
+  margin-bottom: -10%; 
+}
+
+.pageTwo {
+  background:url("https://unsplash.com/photos/bFDdb5Yl_-w/download?force=true");
+  background-size: cover;
+  height: 1200px;
+  margin-top: 75px;
+  padding-top: 5%;
+}
+
+p {
+  font-size: 3.0em;
+}
+
+.pageThree {
+  background:url("https://unsplash.com/photos/667uUSwqLiY/download?force=true");
+  height: 1300px;
+  padding-top: 5%;
+}
+
+.pageThree {
+  background:url("http://unsplash.com/photos/667uUSwqLiY/download?force=true");
+  height: 1200px;
+  padding-top: 5%;
+}
+
+.pageFour {
+  background:url("https://unsplash.com/photos/iorRb-KOR64/download?force=text-replace: ;");
+  height: 1200px;
+  padding-top: 5%;
+}
+
+.paddingBTN {
+  padding-top: 25%;
+  padding-bottom: 25%;
+  width: 200px;
+  margin-bottom: 25px;
+}
+
+.paddingTop {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
