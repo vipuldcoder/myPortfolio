@@ -51,43 +51,57 @@ h1 {
 }
 
 .pageTwo {
-  background:url("https://unsplash.com/photos/bFDdb5Yl_-w/download?force=true");
+  background:url("https://unsplash.com/photos/VLdaxYyXJvw/download?force=true");
   background-size: cover;
-  height: 1200px;
+  height: 800px;
   margin-top: 75px;
   padding-top: 5%;
 }
 
 p {
-  font-size: 3.0em;
+  font-size: 1.8em;
 }
 
-.pageThree {
-  background:url("https://unsplash.com/photos/667uUSwqLiY/download?force=true");
-  height: 1300px;
-  padding-top: 5%;
+.fSize {
+   font-size: 1.8em;
+}
+
+.mid {
+  padding-top: 120px;
+  padding-bottom: 25px;
+}
+
+.mid2 {
+  margin-top: 50px;
+  padding-bottom: 25px;
 }
 
 .pageThree {
   background:url("http://unsplash.com/photos/667uUSwqLiY/download?force=true");
-  height: 1200px;
-  padding-top: 5%;
+  height: 800px;
+  margin-bottom: 0%;
 }
 
 .pageFour {
-  background:url("https://unsplash.com/photos/iorRb-KOR64/download?force=text-replace: ;");
-  height: 1200px;
+  background:url("https://res.cloudinary.com/dck40m3wf/image/upload/v1455475485/Portfolio/tweed.png");
+  height: 400px;
   padding-top: 5%;
 }
 
 .paddingBTN {
-  padding-top: 25%;
-  padding-bottom: 25%;
+  padding-top: 1%;
+  padding-bottom: 1%;
   width: 200px;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 .paddingTop {
   padding-top: 2%;
   padding-bottom: 2%;
 }
+
+.mid {
+  padding-top: auto;
+  margin-bottom: auto;
+}
+
