@@ -1,4 +1,3 @@
-
 /**
  * SmoothScroll
  * This helper script created by DWUser.com.  Copyright 2012 DWUser.com.  
