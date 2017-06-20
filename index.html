@@ -6,10 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>  
+  <body>
 <header>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </header>  
@@ -20,13 +23,13 @@
       <a href="#">Vipul Aggarwal</a>
     </li> 
     <li class = "pull-right">
-      <a href="#contactme">Contact Me</a>
+      <a href="#contactme" class="smoothScroll">Contact Me</a>
     </li>
     <li class = "pull-right">
-      <a href="#portfolio">Portfolio</a>
+      <a href="#portfolio" class="smoothScroll">Portfolio</a>
     </li> 
     <li class = "pull-right">
-      <a href="#about">About</a>
+      <a href="#about" class="smoothScroll">About</a>
     </li>   
   </ul> 
 
@@ -41,14 +44,18 @@
     <a class = "btn btn-default" href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i> facebook</a>
   </div>  
 </div>
-
+<a href="#about"><span id="scrollIcon" class="front-glyph glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
 <div class = "pageTwo" id="about">
   <div class = "row">
-    <div class = "col-md-6 text-center">
-      <h1>Vipul Aggarwal</h1>
-      <p>Front-End Developer and UX/UI designer, with practical experience in project management, branding strategy, and creative direction; devoted to functional programming and information architecture.</p>
+    
+    <div class = "col-md-7 text-center mid">
+      <h2>Vipul Aggarwal</h2>
+      <p>Front-End Developer and UX/UI designer, with practical experience in</p>
+        <ul class="fSize">          <li>project management</li>         <li>branding strategy</li>            <li>creative direction</li>
+      </ul>
+      <p>devoted to functional programming and information architecture.</p>
     </div>
-    <div class = "col-md-6">
+    <div class = "col-md-5 mid2">
       <a href="https://imgbb.com/"><img src="https://image.ibb.co/c7XLSk/avatar.jpg" alt="avatar" border="0" class="text-center"/></a><br />
     </div>
   </div>  
@@ -62,7 +69,8 @@
   <div class="row">
     <div class="col-sm-4">
       <p>Some text..</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <p data-height="265" data-theme-id="0" data-slug-hash="wzVEVB" data-default-tab="result" data-user="vipuldcoder" data-embed-version="2" data-pen-title="A. P. J Abdul Kalam Tribute" class="codepen">See the Pen <a href="https://codepen.io/vipuldcoder/pen/wzVEVB/">A. P. J Abdul Kalam Tribute</a> by vipul aggarwal (<a href="https://codepen.io/vipuldcoder">@vipuldcoder</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
     </div>
     <div class="col-sm-4">
       <p>Some text..</p>
@@ -96,20 +104,30 @@
 </div>
 
 <div class = "pageFour text-center" id="contactme">
-  <h2>Contact Me</h2>
-  <hr>
-   
+  <div class="row">
+    <div class="col-md-8 mid">
+      <h1>Contact Me<h2>+91-9654555419</h2><h2><a href="mailto:vipul.captureart@gmail.com"> vipul.captureart@gmail.com</a></h2></h1>
+    </div>
+    <div class="col-md-4">
+      <a class="btn btn-default paddingBTN" href="#"><i class="fa fa-twitter"></i> Twitter</a>
+      <br>
+      <a class="btn btn-default paddingBTN" href="#"><i class="fa fa-youtube"></i> Youtube</a>
+      <br>
+      <a class="btn btn-default paddingBTN" href="#"><i class="fa fa-file-text"></i> Resume</a>
+      <br>
+      <a class="btn btn-default paddingBTN" href="#"><i class="fa fa-linkedin"></i> Linkedin</a>
+      <br>
+      <a class="btn btn-default paddingBTN" href="#"><i class="fa fa-behance"></i> Behance</a>
+      
+    </div>  
   </div>  
-</div>   
+   
+  </div>   
 
 <footer class="container-fluid text-center">
     <h3>
-      <a href="#" target="_blank">Vipul Aggarwal - </a>
-      <a href="#about">About - </a>
-      <a href="#portfolio">Portfolio - </a>
-      <a href="#contactme">Contact Me </a>
-    </h3> 
-  <p>Vipul &copy; Copyright 2012, Example Corporation</p>
+        Vipul &copy; Copyright 2017
+  </h3>  
 </footer>
 </body>
 </html>
