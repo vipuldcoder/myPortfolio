@@ -8,53 +8,43 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>  
-  <body>
-<header>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+ <header>
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </header> 
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Vipul Aggarwal</a>
-    </div>  
-    <div class = "pageOne text-center">
-    <div class="navbar-collapse collapse">
-      <ul class="nav nav-pills navbar-nav navbar-right">
-        <li><a href="#">Home</a></li>
-        <li class="active"><a href="#about" class="smoothScroll">About</a></li>
-        <li class="dropdown">
-        <a href="#portfolio" class="smoothScroll" data-toggle="dropdown">Portfolio<b class="caret"></b></a>
-        </li>
-        <li><a href="#contactme" class="smoothScroll">Contact Me</a></li>
-      </ul>
+
+<nav class="navbar navbar-default">
+  
+  <div class="container-fluid">
+
+  <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" id="Marca" href="#">Vipul Aggarwal</a>
+      </div>
+    <div>
+      <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+        <ul class="nav navbar-nav" id="Menu">
+    <li class = "pull-right">
+       <a style="color:black" href="#contactme" class="smoothScroll">Contact Me</a>
+    </li> 
+    <li class = "pull-right nav-item">
+      <a style="color:black" href="#portfolio" class="smoothScroll">Portfolio</a>
+    </li> 
+    <li class = "pull-right">
+       <a style="color:black" href="#about" class="smoothScroll">About</a>
+    </li>    
+  </ul> 
     </div>
-  </div> 
-
-
- <!-- <ul class = "nav ">
-    
-    <li>
-      <a href="#">Vipul Aggarwal</a>
-    </li> 
-    <li class = "pull-right">
-      Contact Me</a>
-    </li>
-    <li class = "pull-right">
-    
-    </li> 
-    <li class = "pull-right">
-      
-    </li>   
-  </ul> -->
-
+    </div>
+    </div>
+   </nav>
+ <!-- Page One-->  
   <div class = "block text-center">
   <h1>Vipul Aggarwal</h1>
   <h3>Front-End-Developer /\ Grapihic Artist /\ 3D Animator</h3>
@@ -66,6 +56,7 @@
     <a class = "btn btn-default" href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i> facebook</a>
   </div>  
 </div>
+
 <a href="#about"><span id="scrollIcon" class="front-glyph glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
 <div class = "pageTwo" id="about">
   <div class = "row">
@@ -91,8 +82,7 @@
   <div class="row">
     <div class="col-sm-4">
       <p>Some text..</p>
-      <p data-height="265" data-theme-id="0" data-slug-hash="wzVEVB" data-default-tab="result" data-user="vipuldcoder" data-embed-version="2" data-pen-title="A. P. J Abdul Kalam Tribute" class="codepen">See the Pen <a href="https://codepen.io/vipuldcoder/pen/wzVEVB/">A. P. J Abdul Kalam Tribute</a> by vipul aggarwal (<a href="https://codepen.io/vipuldcoder">@vipuldcoder</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
     </div>
     <div class="col-sm-4">
       <p>Some text..</p>
@@ -151,7 +141,7 @@
         Vipul &copy; Copyright 2017
   </h3>  
 </footer>
-    
+</body>   
 <script type="text/javascript" src="script.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  
